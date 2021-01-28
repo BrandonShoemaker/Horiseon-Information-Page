@@ -1,0 +1,155 @@
+/*Sets base rules and dimentions for entire page unless overridden. Border box counting margin and padding to make the size of divs predictable*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*A reusable class that loafts the element left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Same as previous but floats left*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Another resuable class. Adds bottom margin adn aligns text elements to center */
+.center-align{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Instantiates base behavior of body in the case of page not loading properly*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Makes all Anchors, unless overriden, have the same color and decoration*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Adjusts base paragraph font-size*/
+p {
+    font-size: 16px;
+}
+
+/*Beginning of body, sets the spacing, color, font, backup fonts, and background color of the footer element*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Forces h1 to be an inline block so nav can float next to it, also overrides font-size*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Changes the color of letters "seo" in the company name*/
+.seo {
+    color: #d9dcd6;
+}
+
+/*Nav element floats right to appear on the header div, also asigns font, backup font, font size, and spacing*/
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Gets rid of the bullet points for menu selectors*/
+header nav ul {
+    list-style-type: none;
+}
+
+/*Makes them inline-block so position them horizontally and spaces them more*/
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Page banner image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Contains the main mission statements and sets up for the next section to float right*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Contain the content of the 3 main mission statements, sets font, backup font, sizing, spacing, and colors*/
+.content-panel {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Makes the header of each content panel have more space and font size*/
+.content-panel h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Makes the image of each content panel scale down in size*/
+.content-panel img {
+    max-height: 200px;
+}
+
+/*Second main section descibing benefits of company, floats right, sets font and backup, disallows any content to float next to it, sets spacing and color*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*Describes the content of each of the three benefits, sets spacing and color*/
+.benefit-panel {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Defines how the image should behave in each benefit panel, is in block display to sperate text, spaces and sizes images*/
+.benefit-panel img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Last part of page, the footer section, declares font and backup, spacing, disallows floating on sides, and aligns text to center*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Makes header different size*/
+footer h2 {
+    font-size: 20px;
+}
