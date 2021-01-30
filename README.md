@@ -1,2 +1,0 @@
-# Code Refactor Starter Code
-Website is seperated into 5 sections, the header, hero, services, benefits, and footer. The header holds the navigation bar and company name that has been decorated. The her section holds just a banner for the page. The services section is seperated into 3 individual articles describing what each service does. All services are accompanied by images with alt descriptions. The benefits page is similarly sectioned but all contained in one div element, undivided. The last elements is the footer section that contains the copyright for the page.
