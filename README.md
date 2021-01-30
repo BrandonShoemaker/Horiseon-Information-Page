@@ -20,7 +20,7 @@ These changes would improve site accessibility to those who have dissabilities, 
 
 ### HTML Changes
 
-To begin the rennovation it was necessary to take a good look at the overall site, how it functions, what links to what and if said links work, and how the site looks visually as to preserve how it was intended to look post-changes.
+To begin the refactor it was necessary to take a good look at the overall site, how it functions, what links to what and if said links work, and how the site looks visually as to preserve how it was intended to look post-changes.
 
 Afterwards came restructuring the overall HTML index document. The HTML element indents were corrected and any unnecessary white spaces were removed to improve flow of reading for future changes.
 
