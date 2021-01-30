@@ -38,6 +38,12 @@ Next, eliminating any redundant code and place the contents into a reusable clas
 
 Lastly, restructuring the entirety of the flow of the CSS page and grouping all like-classes together in toe with the HTML document to improve readability and locating the necessary classes you may need to hunt down later. Afterwards, comments were created containing brief descriptions to every class and base definitions of elements (i.e. body{}) to explain what each accomplishes.
 
+### Screenshots
+
+![First 45% of webpage](/assets/Screenshots/topHalf.JPG)
+![Second 45% of webpage](/assets/Screenshots/mostOfBottom.JPG)
+![Last 5% of webpage](/assets/Screenshots/bottomWithFooter.JPG)
+
 ### Github Deployed Project
 
 https://brandonshoemaker.github.io/Horiseon-Information-Page/
