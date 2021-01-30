@@ -59,4 +59,5 @@ If you desire to develop further or simply take a more in depth look, follow the
 
 ## Credits
 Main Site Creator: Xandromus https://github.com/Xandromus
+
 Site Correctional Contributer: Brandon Shoemaker
